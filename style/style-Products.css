@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0A3641;
+  margin: 0;
+  color: white;
+  padding: 0 20px 5px;
+}
+
+.navbar .title {
+  width: 25%;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.navbar .title,
+.ul,
+.icon,
+.icon2,
+.copyright {
+  display: inline-block;
+}
+
+.navbar .ul {
+  width: 50%;
+  text-align: center;
+}
+
+.navbar .li {
+  list-style: none;
+  display: inline;
+  padding: 0 40px;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar .li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .icon {
+  background-color: #0A3641;
+}
+
+.navbar .icon img {
+  width: 35px;
+  padding: 0px 15px;
+  position: relative;
+  top: 10px;
+}
+
+.Products {
+  background-color: #eee;
+  padding: 50px 0;
+}
+
+.Products h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.Products .items .content {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+.Products .items .content img {
+  width: 75%;
+}
+
+.Products .items .content .info h2 {
+  font-size: 25px;
+  margin: 20px 0 0 0;
+}
+
+.Products .items .content .info p {
+  margin-top: 10px;
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+.footer {
+  background-color: #0A3641;
+  color: white;
+}
+
+.footer .copyright {
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer .icon2 .fb {
+  width: 39px;
+  position: relative;
+  top: 12px;
+  right: -7px;
+}
+
+.footer .icon2 .twitter,
+.footer .icon2 .insta {
+  width: 27px;
+  position: relative;
+  top: 14px;
+  padding: 0 25px;
+}
+
+@media (min-width: 10px) {
+  .navbar .title,
+  .ul,
+  .icon,
+  .copyright,
+  .icon2 {
+    width: 100%;
+  }
+  .navbar .icon img {
+    top: 0px;
+  }
+  .navbar .icon a,
+  .footer .icon2 a {
+    float: none;
+  }
+  .navbar .ul {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .navbar .li {
+    display: block;
+    padding-top: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+  }
+  .Products .items .content {
+    width: 49%;
+  }
+  .footer .copyright {
+    padding: 15px 0;
+  }
+  .icon2 {
+    text-align: center;
+  }
+  .footer .icon2 .twitter,
+  .footer .icon2 .insta {
+    top: 0;
+  }
+  .footer .icon2 .fb {
+    top: 4px;
+    right: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .title {
+    width: 25%;
+  }
+  .navbar .ul {
+    width: 50%;
+    text-align: center;
+  }
+  .navbar .icon {
+    width: 20%;
+  }
+  .navbar .icon img {
+    top: 15px;
+  }
+  .navbar .li {
+    list-style: none;
+    display: inline;
+    padding: 0 40px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+  }
+  .navbar .icon a,
+  .footer .icon2 a {
+    float: right;
+  }
+  .Products .items .content {
+    width: 24%;
+  }
+  .copyright {
+    width: 50%;
+  }
+  .icon2 {
+    width: 40%;
+    text-align: left;
+  }
+  .footer .copyright {
+    padding: 15px;
+  }
+  .footer .icon2 .twitter,
+  .footer .icon2 .insta {
+    top: 14px;
+  }
+  .footer .icon2 .fb {
+    top: 12px;
+    right: -14px;
+  }
+}

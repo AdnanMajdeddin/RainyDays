@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0A3641;
+  margin: 0;
+  color: white;
+  padding: 0 20px 5px;
+}
+
+.navbar .title {
+  width: 25%;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.navbar .title,
+.ul,
+.icon,
+.icon2,
+.copyright {
+  display: inline-block;
+}
+
+.navbar .ul {
+  width: 50%;
+  text-align: center;
+}
+
+.navbar .li {
+  list-style: none;
+  display: inline;
+  padding: 0 40px;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar .li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .icon {
+  background-color: #0A3641;
+}
+
+.navbar .icon img {
+  width: 35px;
+  padding: 0px 15px;
+  position: relative;
+  top: 10px;
+}
+
+.Product-specific-info {
+  background-color: #eee;
+  padding: 150px 0;
+}
+
+.Product-specific-info .container .imgs, .Product-specific-info .container .info {
+  width: 48%;
+  display: inline-block;
+}
+
+.Product-specific-info .container .imgs .big-img {
+  text-align: center;
+  width: 100%;
+}
+
+.Product-specific-info .container .imgs .big-img img {
+  width: 35%;
+}
+
+.Product-specific-info .container .imgs .small-imgs {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Product-specific-info .container .imgs .small-imgs img {
+  width: 15%;
+}
+
+.Product-specific-info .container .info {
+  padding-left: 20px;
+}
+
+.Product-specific-info .container .info h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.Product-specific-info .container .info h2 {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.Product-specific-info .container .info ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Product-specific-info .container .info h2 {
+  font-size: 22px;
+}
+
+.Product-specific-info .container .info .sizes span {
+  border: 1px solid;
+  padding: 2px 10px;
+  font-weight: bold;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.Product-specific-info .container .info button {
+  background: #0A3641;
+  padding: 10px 39px;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+.Product-specific-info .container .info button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #0A3641;
+  color: white;
+}
+
+.footer .copyright {
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer .icon2 .fb {
+  width: 39px;
+  position: relative;
+  top: 12px;
+  right: -7px;
+}
+
+.footer .icon2 .twitter,
+.footer .icon2 .insta {
+  width: 27px;
+  position: relative;
+  top: 14px;
+  padding: 0 25px;
+}
+
+@media (min-width: 10px) {
+  .navbar .title,
+  .ul,
+  .icon,
+  .copyright,
+  .icon2 {
+    width: 100%;
+  }
+  .navbar .icon img {
+    top: 0px;
+  }
+  .navbar .icon a,
+  .footer .icon2 a {
+    float: none;
+  }
+  .navbar .ul {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .navbar .li {
+    display: block;
+    padding-top: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+  }
+  .Product-specific-info .container .imgs, .Product-specific-info .container .info {
+    width: 95%;
+  }
+  .Product-specific-info .container .imgs .big-img {
+    width: 100%;
+  }
+  .Product-specific-info .container .imgs .big-img img {
+    width: 50%;
+  }
+  .footer .copyright {
+    padding: 15px 0;
+  }
+  .icon2 {
+    text-align: center;
+  }
+  .footer .icon2 .twitter,
+  .footer .icon2 .insta {
+    top: 0;
+  }
+  .footer .icon2 .fb {
+    top: 4px;
+    right: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .title {
+    width: 25%;
+  }
+  .navbar .ul {
+    width: 50%;
+    text-align: center;
+  }
+  .navbar .icon {
+    width: 20%;
+  }
+  .navbar .icon img {
+    top: 15px;
+  }
+  .navbar .li {
+    list-style: none;
+    display: inline;
+    padding: 0 40px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+  }
+  .navbar .icon a,
+  .footer .icon2 a {
+    float: right;
+  }
+  .Product-specific-info .container .imgs, .Product-specific-info .container .info {
+    width: 48%;
+  }
+  .Product-specific-info .container .imgs .big-img {
+    width: 100%;
+  }
+  .Product-specific-info .container .imgs .big-img img {
+    width: 35%;
+  }
+  .copyright {
+    width: 50%;
+  }
+  .icon2 {
+    width: 40%;
+    text-align: left;
+  }
+  .footer .copyright {
+    padding: 15px;
+  }
+  .footer .icon2 .twitter,
+  .footer .icon2 .insta {
+    top: 14px;
+  }
+  .footer .icon2 .fb {
+    top: 12px;
+    right: -14px;
+  }
+}
